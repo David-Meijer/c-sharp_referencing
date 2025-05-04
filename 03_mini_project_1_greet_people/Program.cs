@@ -3,20 +3,38 @@ Console.Write("What is your first name? ");
 string firstName = Console.ReadLine();
 
 Console.Write("What is your age? ");
-int age = Convert.ToInt32(Console.ReadLine());
+string ageText = Console.ReadLine(); //Readline only gives back string values
 
-string firstNameLowerCase = firstName.ToLower();
+bool isValidAge = int.TryParse(ageText, out int age);
 
-if (firstNameLowerCase == "bob" || firstNameLowerCase == "Sue") 
+if (!isValidAge)
 {
-    Console.WriteLine("Hello Professor!");
+    Console.WriteLine("You did not supply a valid age!");
+    Console.WriteLine("Exiting program...");
+    return; //exit the program
 }
-else if ((firstNameLowerCase != "bob" || firstNameLowerCase != "Sue") && age >= 21)
+
+//Determine correct formatting of name based on proffer names and age
+string firstNameLowerCase = firstName.ToLower();
+string formattedName;
+if ((firstNameLowerCase == "bob" || firstNameLowerCase == "sue") && age > 21)
 {
-    Console.WriteLine("Hello student!")
-} 
+     formattedName = $"professor {firstName}";
+}
 else
 {
-    Console.WriteLine("You should probably wait some more time to start studying!");
+    formattedName = firstName;
+}
+
+//Great student or professor
+if (age >= 21) 
+{
+    Console.WriteLine($"Hello {formattedName}");
+}
+//Somebody whose age is probably too low to be a student or professor
+else
+{   
+    int yearsToWait = 21 - age;
+    Console.WriteLine($"Hello {formattedName}, you should probably wait for {yearsToWait} more years to start studying!");
 }
 
