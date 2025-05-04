@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if_else", "01_if_else\if_el
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch", "02_switch\switch.csproj", "{7E487FB8-14A3-4ADB-84AE-2E5E1B0ABAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini_project_1_greet_people", "03_mini_project_1_greet_student_or_professor\mini_project_1_greet_people.csproj", "{076E2CB5-4625-49EC-8037-5F973A7FC8A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini_project_1_greet_student_or_professor", "03_mini_project_1_greet_student_or_professor\mini_project_1_greet_student_or_professor.csproj", "{076E2CB5-4625-49EC-8037-5F973A7FC8A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
