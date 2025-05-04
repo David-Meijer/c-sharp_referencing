@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if_else", "if_else\if_else.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch", "switch\switch.csproj", "{7E487FB8-14A3-4ADB-84AE-2E5E1B0ABAB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini_project_1_greet_people", "mini_project_1_greet_people\mini_project_1_greet_people.csproj", "{076E2CB5-4625-49EC-8037-5F973A7FC8A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{7E487FB8-14A3-4ADB-84AE-2E5E1B0ABAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E487FB8-14A3-4ADB-84AE-2E5E1B0ABAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E487FB8-14A3-4ADB-84AE-2E5E1B0ABAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076E2CB5-4625-49EC-8037-5F973A7FC8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076E2CB5-4625-49EC-8037-5F973A7FC8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076E2CB5-4625-49EC-8037-5F973A7FC8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076E2CB5-4625-49EC-8037-5F973A7FC8A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
