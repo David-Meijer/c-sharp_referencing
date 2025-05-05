@@ -3,7 +3,7 @@
 //Do-while loop
 //Run code at least once
 bool isValidAge;
-int age;
+int age; //Make sure that the age exists not only in the context of the do while block
 
 do
 {
@@ -18,7 +18,6 @@ do
 while (!isValidAge);
 
 Console.WriteLine("Your entered age was validated to be correct!");
-
 
 //While loop
 //Run code 0 or more times
