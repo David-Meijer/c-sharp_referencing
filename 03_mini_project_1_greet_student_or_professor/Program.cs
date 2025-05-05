@@ -14,7 +14,7 @@ if (!isValidAge)
     return; //exit the program
 }
 
-//Determine correct formatting of name based on proffer names and age
+//Determine correct formatting of greeting
 string firstNameLowerCase = firstName.ToLower();
 string formattedName;
 if ((firstNameLowerCase == "bob" || firstNameLowerCase == "sue") && age > 21)
