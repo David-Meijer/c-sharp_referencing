@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "referencing.sln"
+    "dotnet.defaultSolution": "referencing.sln",
+    "editor.inlayHints.enabled": "on"
 }
