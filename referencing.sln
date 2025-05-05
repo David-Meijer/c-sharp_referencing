@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch", "02_switch\switch.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini_project_1_greet_student_or_professor", "03_mini_project_1_greet_student_or_professor\mini_project_1_greet_student_or_professor.csproj", "{076E2CB5-4625-49EC-8037-5F973A7FC8A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(do)_while", "04_(do)_while\(do)_while.csproj", "{D4C0CB24-2269-4C49-981A-4B2F667C8106}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
