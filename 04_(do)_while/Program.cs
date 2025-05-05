@@ -22,18 +22,13 @@ Console.WriteLine("Your entered age was validated to be correct!");
 
 //While loop
 //Run code 0 or more times
-bool isValidYear = false;
-int currentYear;
+Console.Write("Please enter the current year: ");
+bool isValidYear = int.TryParse(Console.ReadLine(), out int currentYear);
 
-while (!isValidYear)
+while (!isValidYear || currentYear < 2025)
 {
-    Console.Write("Please enter the current year: ");
+    Console.Write("You did not enter a valid year, please enter the current year again: ");
     isValidYear = int.TryParse(Console.ReadLine(), out currentYear);
-    if (!isValidYear || currentYear < 2025)
-    {
-        isValidYear = false;
-        Console.WriteLine("You did not enter a valid year, please try again");
-    }
 }
 
 Console.WriteLine("Your entered year was validated to be correct!");
